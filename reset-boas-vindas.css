@@ -1,0 +1,16 @@
+.page-context-header, #region-main > div > h2, #region-main .modified, .m-t-2 .m-b-1 .activity-navigation  {
+  display: none;
+}
+
+#learningcontent, #page-header, #page-header .card {
+  background-color: #FFFFFF;
+}
+
+#region-main, #region-main .box.generalbox, #region-main-box {
+  padding: 0px !important;
+}
+
+#headerbkg, .default{
+  display: none;
+  padding: 0px !important;
+}

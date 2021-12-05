@@ -1,0 +1,11 @@
+.headerbkg{
+  display: none;
+}
+
+.pagelayout-course div#learningcontent {
+  margin-top: 0px !important;
+}
+
+ul.breadcrumb {
+  display: none;
+}

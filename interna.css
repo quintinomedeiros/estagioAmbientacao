@@ -1,0 +1,74 @@
+section{
+    font-size: 1.2rem;
+}
+
+.container div {
+    display: inline-block;
+}    
+    
+@media screen and (max-width: 768px) {
+    .container { display: flex; flex-flow: column; }
+    .first { order: 1; }
+    .second { order: 2;  }
+}
+
+.icone{
+    max-width: 240px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem{
+    max-width: 560px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.botao{
+    background-color: #2C4A63;
+    color: white;   
+}
+
+.botao:hover{
+    background-color: white;
+    color: #2C4A63;
+    border-color: #2C4A63;
+}
+
+.titulo_negrito{
+    font-weight: 600;
+    color: #579368;
+}
+
+/*Setas Livro*/
+.icon.fa.fa-arrow-right.fa-fw{
+    font-size: 1.5rem;
+  }
+  
+  .icon.fa.fa-arrow-left.fa-fw{
+    font-size: 1.5rem;
+}
+
+.video_largura{
+    max-width: 576px;
+
+}
+
+.acerto_div {
+    max-width: 576px;
+}
+
+.acerto_imagem{
+    max-width: 576px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acerto_margem{
+    margin-left: 10px;
+}
